@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodigitera-SkinGenX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .workflow img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biodigitera-SkinGenX</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#services">Services</a>
+        <a href="#team">Our Team</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to revolutionizing skincare by leveraging the power of science. Our focus is on analyzing the skin microbiome and DNA to identify biomarkers for health and cosmetic applications. With personalized solutions tailored to each individual, we aim to enhance skin health and confidence.</p>
+        <p><strong>Vision:</strong> To create a future where skincare is both scientifically advanced and deeply personal.</p>
+        <p><strong>Mission:</strong> To combine cutting-edge research and technology to provide innovative skincare solutions.</p>
+    </section>
+
+    <section id="workflow" class="workflow">
+        <h2>Our Workflow</h2>
+        <ol>
+            <li><strong>Sample Collection:</strong> Non-invasive skin swabs are used to collect samples for analysis.</li>
+            <li><strong>DNA and Microbiome Sequencing:</strong> Using 16S rRNA and shotgun metagenomics to profile the skin microbiome and genetic material.</li>
+            <li><strong>Bioinformatics Analysis:</strong> Advanced tools process and analyze the sequencing data to derive actionable insights.</li>
+            <li><strong>Data Interpretation:</strong> Dermatologists and scientists identify microbial and genetic patterns to address skin concerns.</li>
+            <li><strong>Personalized Product Formulation:</strong> Customized skincare products are developed based on the findings.</li>
+            <li><strong>Product Testing:</strong> Products are tested for efficacy and safety, ensuring customer satisfaction.</li>
+            <li><strong>Customer Feedback:</strong> Continuous improvement through feedback and periodic data monitoring.</li>
+        </ol>
+        <img src="workflow-image.png" alt="Workflow Diagram" />
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Comprehensive Skin Microbiome Testing</li>
+            <li>DNA Sequencing for Skin Health Analysis</li>
+            <li>Personalized Skincare Product Development</li>
+            <li>Ongoing Skin Health Monitoring and Consultation</li>
+            <li>Educational Resources on Skin and Microbiome Health</li>
+        </ul>
+    </section>
+
+    <section id="team">
+        <h2>Our Team</h2>
+        <p>We are a group of passionate scientists, dermatologists, and skincare experts dedicated to providing innovative and personalized solutions. Our team combines years of experience in microbiome research, genomics, and cosmetic development.</p>
+        <ul>
+            <li><strong>Dr. Jane Smith:</strong> Microbiome Research Scientist</li>
+            <li><strong>Dr. John Doe:</strong> Dermatology Specialist</li>
+            <li><strong>Emily Brown:</strong> Cosmetic Chemist</li>
+            <li><strong>Dr. Arnaud Lemoge, Molecular Biologist and Genomic Data Scientist:</strong> Bioinformatics Expert</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to get started? Contact us:</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+        <p>Email: <a href="mailto:info@biodigitera-skingenx.com">info@biodigitera-skingenx.com</a></p>
+        <p>Phone: +1-800-555-1234</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Biodigitera-SkinGenX. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
